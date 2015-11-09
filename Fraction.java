@@ -8,8 +8,8 @@ public class Fraction {
     }
     void Simplify()
     {
-        n = n / nok(n,d);
-        d = d / nok(n,d);
+        n = n / nod(n,d);
+        d = d / nod(n,d);
     }
 
     public String toString()
